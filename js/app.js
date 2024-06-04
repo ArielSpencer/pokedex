@@ -5,7 +5,7 @@ const form = document.querySelector('.form');
 const input = document.querySelector('.input__search');
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-next');
-let searchPokemon = 1;
+let searchPokemon = 132;
 
 // chamar a api
 const fetchPokemon = async (pokemon) => {
@@ -17,7 +17,7 @@ const fetchPokemon = async (pokemon) => {
     } else {
         pokemonName.innerHTML = ('Not found!');
         pokemonNumber.innerHTML = ('404');
-        pokemonImage.src = ("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif");
+        pokemonImage.src = ("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif");
         input.value = '';
     }
 }
